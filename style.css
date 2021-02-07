@@ -1,0 +1,11 @@
+.inner-form {
+   
+    margin: 100px;
+    padding: 5px;
+    margin-bottom: 90px;
+    border-radius: 5px;
+}
+.btn-search{
+   background-color:tomato;
+   border-radius: 5px;
+}

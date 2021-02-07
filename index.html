@@ -7,18 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hungry-monster</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="col-lg-7 mx-auto text-center">
         <form">
             <div class="inner-form">
-                <div class="input-field first-wrap">
+                <div>
                 </div>
                 <input id="keyword" type="text" placeholder="Search your meals.." />
-            </div>
-            <div class="input-field second-wrap">
                 <button id="searchBtn" class="btn-search" type=>Search</button>
             </div>
     </div>
@@ -28,7 +26,7 @@
 
     <section class="container py-5">
         <div id="meals" class="row g-3"></div>
-        <p id="warning" class="lead text-warning text-center">Enter meal name</p>
+        <p id="warning" class="lead text-success text-center">Enter meal name in the search box & click the search button</p>
     </section>
 
     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
